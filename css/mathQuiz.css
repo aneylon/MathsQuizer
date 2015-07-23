@@ -1,0 +1,75 @@
+* {
+/*	border : red solid 1px;*/
+	padding : 5px;
+	margin : 5px;
+	color : white;
+	overflow : auto;
+	text-align : center;
+	font-size : xx-large;
+	border-radius: 10px;
+}
+
+body {
+	background-color : black;
+}
+ 
+table {
+	margin : auto;
+}
+td {
+	padding : 10px;
+}
+
+hr {
+	background-color: white;
+	height : 1px;
+}
+
+input {
+	width : 100px;
+	background-color : darkgray;
+	color : black;
+}
+
+#pageWrapper {
+	margin : auto;
+	width : 50%;
+	background-color: #333;
+	padding : 5px;
+}
+
+#title {
+	text-align : center;
+	background-color : #111;
+}
+
+#pickerWrapper {
+	background-color: #222;
+	font-weight : bolder;
+}
+
+#pickerWrapper ul li{
+	padding : 15px 30px ;
+	margin : 35px;
+	display : inline-block;
+}
+
+#problemWrapper {
+	float : left;
+	width : 60%;
+	background-color: #222;
+}
+
+#infoWrapper {
+	float : right;
+	width : 30%;
+	background-color: #222;
+}
+
+.red {
+	background-color: orangered;
+}
+
+.green {
+	background-color: limegreen;
+}

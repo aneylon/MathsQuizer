@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			. maths . quizer .
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/mathQuiz.css">
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mathQuiz.js"></script>
+	</head>
+	<body>
+		<div id="pageWrapper">
+			<div id="title">
+				<h1> . maths . quizer . </h1>
+			</div>
+			<div id="pickerWrapper">
+				<ul>
+					<li id="addition">
+						+
+					</li>
+					<li id="subtraction">
+						-
+					</li>
+					<li id="multiplication">
+						*
+					</li>
+					<li id="division">
+						/
+					</li>
+				</ul>
+			</div>
+			<div id="problemWrapper">
+				<table>
+					<tr>
+						<td>
+						</td>
+						<td>
+							<span id="operandOne">
+								1
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span id="operator">
+								+
+							</span>
+						</td>
+						<td>
+							<span id="operandTwo">
+								2
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<!-- <p id="theAnswer">3</p> -->
+							<input id="userAnswer" onkeydown="CheckAnswer(event)">
+						</td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div id="infoWrapper">
+				<div class="green">
+					<p># right</p>
+					<p id="correct">0</p>
+				</div>
+				<div class="red">
+					<p># wrong</p>
+					<p id="incorrect">0</p>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
